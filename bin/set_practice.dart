@@ -6,5 +6,10 @@ void main() {
   print('Dias de la semana: $week');
   print('semana + fin de semana: $weekend');
 
-
+  final differenceSet = weekend.difference(week);
+  if (differenceSet.isEmpty) {
+  print('No hay días diferentes entre week y weekend.');
+} else {
+  print('Días diferentes entre week y weekend: $differenceSet');
+}
 }
