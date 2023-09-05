@@ -1,5 +1,5 @@
 void main() {
-  print('=== LIST EJEMPLO ===');
+  print('=== EJEMPLO LIST ===');
   // representan una coleccion ordenada de objectos
   List<String> names = ['Juan','Rodolfo','Manuel','Jose','Alex','Oscar'];
   print('Nombres existentes: $names');
