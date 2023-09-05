@@ -6,9 +6,9 @@ void main() {
   print('Primer nombre en la lista: ${names.first}');
   print('Ultimo nombre de la lista: ${names.last}');
 
-  //ordenar alfabeticamente
+  //ordenar alfabeticamente(orden lexicográfico)
   names.sort();
-  print('Nombres existentes (orden alfabético): ');
+  print('Nombres existentes en orden alfabético: ');
   for(String orden in names){
     print(orden);
   }
